@@ -1,5 +1,20 @@
-.caja1 {
-  width: 50%;
+.imagen {
+  width: 60%;
+  margin-left: 5%;
+}
+
+.portada {
+  margin-left: 2%;
+}
+
+.parr1 {
+  padding-top: 10%;
+  margin-left: 10%;
+}
+
+.img {
+  margin-top: 50%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
