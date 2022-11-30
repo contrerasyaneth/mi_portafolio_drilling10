@@ -1,3 +1,8 @@
+.nav {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+
 .imagen {
   width: 60%;
   margin-left: 5%;
@@ -14,7 +19,48 @@
 
 .img {
   margin-top: 50%;
-  width: 100%;
+  width: 130%;
+}
+
+.caja1 {
+  width: 40%;
+  margin-top: 10%;
+  margin-right: 5%;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+
+.bot {
+  width: 50%;
+}
+
+.bot1 {
+  width: 50%;
+  margin-left: 3%;
+}
+
+.bot2 {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.bot3 {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.bot4 {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.label {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.bot5 {
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */
