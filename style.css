@@ -4,7 +4,7 @@
 }
 
 .imagen {
-  width: 60%;
+  width: 70%;
   margin-left: 5%;
 }
 
@@ -18,14 +18,25 @@
 }
 
 .img {
-  margin-top: 50%;
-  width: 130%;
+  margin-top: 10%;
+  width: 50%;
+}
+
+.nombre2 {
+  width: 40%;
+}
+
+.contenedor {
+  margin-left: 10%;
 }
 
 .caja1 {
   width: 40%;
   margin-top: 10%;
   margin-right: 5%;
+}
+
+h2 {
   background: rgb(63, 94, 251);
   background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
 }
