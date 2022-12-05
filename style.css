@@ -36,9 +36,9 @@
   margin-right: 5%;
 }
 
-h2 {
-  background: rgb(63, 94, 251);
-  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+hr {
+  width: 30%;
+  height: 10%;
 }
 
 .bot {
@@ -72,6 +72,24 @@ h2 {
 
 .bot5 {
   width: 40%;
+}
+
+.skill {
+  width: 10%;
+  list-style: none;
+  border-radius: 50%;
+}
+
+.about {
+  width: 10%;
+  list-style: none;
+  border-radius: 50%;
+}
+
+.contact {
+  width: 10%;
+  list-style: none;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
