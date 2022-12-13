@@ -55,113 +55,105 @@
     
 
 
- <main class="menu  bg-black ">
+ <main class="menu  bg-white ">
 <div class="contenedor">
- <div class="text-white  d-flex flex-row  ">
+ <div class="text-white  d-flex flex-row">
   <div class="">
     <img src="foto.jpg" class="imagen img-thumbnail">
   </div>
 
   <div class="portada">
-    <img class="img" src="descarga.png">
-    <p class="nombre text-white fst-italic">YANETH MABEL CONTRERAS VILLALOBOS</p>
-    <p class="fst-italic nombre2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti dolorum magnam sint? Vitae deserunt eveniet, dolor ipsa, pariatur voluptatem, eum minima suscipit aut sed a voluptas ex repellat deleniti repudiandae.</p>
+    <img class="img" src="descarga.jpg">
+    <p class="nombre text-warning fst-italic">YANETH MABEL CONTRERAS VILLALOBOS</p>
+    <p class="fst-italic text-warning nombre2"> Programadora Junior tengo experiencia en css y html recibo clases de Front-End lenguajes aprendidos :</P>
+     
+      <ul class="list-group lista">
+      
+        <li class="list-group-item list-group-item-primary">HTML</li>
+        <li class="list-group-item list-group-item-secondary">CSS</li>
+        <li class="list-group-item list-group-item-success">CSS-AVANZADO</li>
+        <li class="list-group-item list-group-item-danger">JAVASCRIPT</li>
+      
+      </ul>
+    
   </div>
 </div>
 
 
-<div class="d-flex flex-row">
-  <div class="text-white fst-italic caja1 rounded-5">
-    <details>
-      <summary>
-        <img class="about" src="about.png">
-      </summary>
-    <h2 class="text-white fst-italic">About</h2><hr>
-     <P>tengo 20 años</P>
-     <p>Mi nombre es Yaneth Mabel Contreras Villalobos</p>
-     <p>Estudio Programacion</p>
-     <p>Defensora DDHH</p>
-  </div>
+
+
+
+<section class="contenedor2">
+
+<div class="text--info">
+  <details>
+    <summary>
+      <img class="about" src="about.png">
+    </summary>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h2 class="h2 fst-italic">About</h2><hr>
+        <P>tengo 20 años</P>
+        <p>Mi nombre es Yaneth Mabel Contreras Villalobos</p>
+        <p>Estudio Programacion</p>
+        <p>Defensora DDHH</p>
+      </div>
+    </div>
 </details>
 
-  <div class="text-white fst-italic caja1 rounded-5 width:20% ">
+  <div class="text-info">
     <details>
       <summary>
         <img class="skill" src="skills.jpg">
       </summary>
-    <h2 class="text-white fst-italic">Skills</h2>
-    <P>Liderazgo</P>
-    <p>Treabajo en equipo</p>
-    <p>Autocontrol</p>
-    <p>Iniciativa</p>
-    <p>Cortesia</p> 
+    <h2 class="h2 fst-italic">Skills</h2><hr>
+
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <P>Liderazgo</P>
+        <p>Treabajo en equipo</p>
+        <p>Autocontrol</p>
+        <p>Iniciativa</p>
+        <p>Cortesia</p> 
+       
+      </div>
   </div>
-</div>
 </details>
 
-   <div class=" caja1 rounded-2 ">
-      <div class="formulario text-center"> 
-        <details> 
-          <summary>
-            <img class="contact" src="contact.png">
-          </summary>
-        <h2 class="text-white fst-italic">Contact Form</h1>
-          <h32 class="text-white fst-italic">Escríbenos</h2>
-        
 
-            <form action="submeter-formulario.php" method="post">       
+  <div class=" contenido text-white  fst-italic">
+    <details>
+      <summary>
+        <img class="contact" src="contact.png">
+      </summary>
 
-                  <p>
-                    <label for="nombre" class="colocar_nombre ">Nombre
-                      <span class="obligatorio"></span>
-                    </label>
-                      <input class="bot" type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                  </p>
-                
-                  <p>
-                    <label for="email" class="colocar_email">Email
-                      <span class="obligatorio"></span>
-                    </label>
-                      <input class="bot1" type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                  </p>
-              
-                  <p>
-                    <label for="telefone" class="colocar_telefono">Teléfono
-                    </label>
-                      <input class="bot2" type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                  </p>    
-                
-                  <p>
-                    <label for="website" class="colocar_website">Sitio web
-                    </label>
-                      <input class="bot3" type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
-                  </p>    
-                
-                  <p>
-                    <label for="asunto" class="colocar_asunto">Asunto
-                      <span class="obligatorio"></span>
-                    </label>
-                      <input class="bot4" type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
-                  </p>    
-                
-                  <p>
-                    <label class="label" for="mensaje" class="colocar_mensaje">Mensaje
-                      <span class="obligatorio"></span>
-                    </label>                     
-                                      <textarea name="introducir_mensaje" class="texto_mensaje label" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                  </p>                    
-                
-                  <button class="bot5" type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-  
-                  <p class="aviso">
-                    <span class="obligatorio"></span>los campos son obligatorios.
-                  </p>          
-              
-            </form>
-       </div> 
-    </div>
-</div>
-</div>
+    <h2>Registro de Contact</h2>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+       
+    <form class="form">
+      <label  for="Nombre">NOMBRE</label>
+      <input class="input" type="text" name="NOMBRE" required>
+    
+      <label for="Apellido">APELLIDO</label>
+       <input class="input" type="text" name="Apellido" requerid>
+    
+      <label for="email">NUMERO DE TELEFONO</label>
+      <input class="input" type="text"  required>
+    
+      <label for="email">EMAIl</label>
+      <input class="input" type="email" name="EMAIL" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required>
+      
+      <label  for="contraseña">FECHA DE NACIMIENTO</label>
+      <input type="date" >
+    
+      <button>enviar</button>
+    
+      </div>
+  </div>
+  </section>
 </main>   
     <script
       src="https://kit.fontawesome.com/1e5e9d0d87.js"
