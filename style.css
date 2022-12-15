@@ -1,6 +1,10 @@
-.nav {
-  background: rgb(63, 94, 251);
+.menu {
+  background-color: rgb(63, 94, 251);
   background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+
+.nav {
+  background: rgb(178, 189, 248);
 }
 
 .imagen {
@@ -55,23 +59,33 @@ summary {
 }
 
 .skill {
-  margin-top: 17%;
+  margin-top: 5%;
   width: 10%;
-  margin-left: 30%;
+  margin-left: 50%;
   border-radius: 50%;
 }
 
+.skill2 {
+  width: 50%;
+  margin-left: 35%;
+}
+
 .about {
-  width: 20%;
-  margin-left: 30%;
+  width: 50%;
+  margin-left: 80%;
   border-radius: 50%;
+  margin-top: 25%;
+}
+
+.about2 {
+  margin-left: 10%;
 }
 
 .contact {
   margin-right: 30%;
   width: 40%;
   border-radius: 50%;
-  margin-top: 95%;
+  margin-top: 35%;
 }
 
 .form {
@@ -83,6 +97,28 @@ summary {
 
 .lista {
   width: 50%;
+}
+
+.footer {
+  background: rgb(178, 189, 248);
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  padding: 6%;
+}
+
+.image {
+  width: 15%;
+}
+
+.images {
+  width: 30%;
+}
+
+.cajas {
+  margin-left: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
